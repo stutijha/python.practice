@@ -1,3 +1,3 @@
-# Replace print(___) with print("I love Python")
+# Replace the code print(__ + __) with print(21 + 40)
 
-print(' I love python')
+print(21 + 40)
