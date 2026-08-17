@@ -4,20 +4,56 @@
 
 ## Problem
 
-_Description not available._
+### Arithmetic Operations
+
+Listen
+
+We can also perform mathematical operations using  **`print`**.
+
+```
+print(2+4) # Output: 6
+
+```
+
+The above code will output the result of the mathematical operation, which is  **6**.
+
+ **Note** : If you enclose the operation within  **quotes**, the entire expression will be treated as text (a string) and will be printed exactly as it is.
+
+```
+print("2+4") # Output: 2+4
+
+```
+
+In this case, the output will be the string  **"2 + 4"**  instead of the result of the addition.
+
+- Without quotes: The expression is evaluated, and the result is printed.
+- With quotes: The expression is treated as a string and printed as it is.
+
+Understanding this distinction is important for correctly displaying the results of calculations versus showing text.
+
+### Task
+
+In the editor we have written half code for you. Some portion of the code contains __ (underscores). Remove those underscores and write 21 in place of first underscore and 40 in place of the next underscore.
+
+To pass this exercise, your code has to print the sum of 21 and 40.
+
+--
+
+### Note
+
+You may have noticed the 1st line in the editor having instructions for you. These lines are not code, they are called  **comments**. Comments in Python start with a #. You can write anything inside a comment.
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-16T16:36:52.268Z  
+**Submitted:** 2026-08-17T14:39:20.784Z  
 
 ```py
-# Replace print(___) with print("I love Python")
+# Replace the code print(__ + __) with print(21 + 40)
 
-print(' I love python')
-
+print(21 + 40)
 ```
 
 ---
