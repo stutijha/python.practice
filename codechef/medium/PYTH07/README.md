@@ -38,7 +38,7 @@ Write a program which does the following
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-18T14:31:02.933Z  
+**Submitted:** 2026-08-18T18:55:26.166Z  
 
 ```py
 # Update the '_' in the code below to output the following 
