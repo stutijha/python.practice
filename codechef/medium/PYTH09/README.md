@@ -4,40 +4,39 @@
 
 ## Problem
 
-### Outputs on the same line
+### Area & Perimeter of Rectangle
 
 Listen
 
-We can print multiple items by separating by commas. Python will automatically add a space between them.
+Write a program for the following problem
+
+- Let’s consider a rectangle of length 11 and breadth 13.
+- Output the following on separate lines: Area of the rectangle having sides as 11 and 13 Perimeter of the rectangle having sides as 11 and 13
+
+For any rectangle, the formula for area is length * breadth.
+The formula for perimeter is 2 * (length + breadth).
+
+ **Expected output** 
 
 ```
-print(1, 2, 3, 4) # Output: 1 2 3 4
+143
+48
 
 ```
-
-When you use commas to separate items inside the print() function, Python prints each item with a space in between.
-
-#### Task
-
-Write a program which does the following
-
-- Output: 3 + 4
-- Output: 2 + 1 on the same line
-
-Note how the numbers are space separated.
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-18T18:55:50.988Z  
+**Submitted:** 2026-08-18T18:56:37.846Z  
 
 ```py
-# Update the '_' in the code below to provide the following output
-# 7 3
+# Update the '_' below to solve the problem
 
-print(3 + 4, 2 + 1)
+print(11 * 13)          # Area of the rectangle
+
+print(2* (11 + 13))    # Perimeter of the rectangle
 ```
 
 ---
