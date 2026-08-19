@@ -4,61 +4,66 @@
 
 ## Problem
 
-### Properties of Variables
+### Declaring a variable
 
 Listen
 
-We learned that variable is a labelled box which can store many different types of values. You can also change the value of a variable in your code.
+There are many different types of variables in Python. The type of a variable is defined by the kind of value it stores.
 
-For example
+Some variable types in Python are as follows
 
 ```
+# Numeric variables - hold integers and decimal values
 age = 25
-print(age)
+temperature = 98.6
 
-# Update age
-age = 26
-print(age)
+# String variables - Stores a sequence of characters enclosed in single or double quotes
+name = "John Doe"
+message = 'Hello, world!'
+
+# Boolean variables - only hold the values true and false
+is_true = True
+is_false = False
+
+# List variables - Stores a collection of items, which can be of different types.
+numbers = [1, 2, 3, 4, 5]
+fruits = ['apple', 'banana', 'orange']
+
+# Tuple variables
+coordinates = (10, 20)
+
+# Dictionary variables
+person = {'name': 'Alice', 'age': 30}
+
+# Set variables
+unique_numbers = {1, 2, 3}
+
+# None variable
+empty_value = None
 
 ```
 
-The above code will output
-
-```
-25
-26
-
-```
-
-We are going to use variables all the time in the coming lessons. So let's learn a few more stuff about them.
-
-### Rules for Python variable names:
-- A variable name can only contain alphabets, numbers and underscores (ie. A-Z, a-z, 0-9, and _).
-- A variable name cannot start with a number.
-- A variable name cannot have spaces in between.
-- Variable names are case-sensitive (age, Age and AGE are three different variables).
-
-Be sure to follow these rules when creating a variable to not get errors.
+We will learn about all of them in coming lessons.
 
 ### Task
 
-There is some code written in the editor to print `Code Chef`.
-But the variable names are not following the rule. Can you spot the mistake and fix it?
+Write a program which does the following
+
+- There is a variable named number having value 20 in the editor.
+- Use the print command to output the value of (number - 1).
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T18:55:37.296Z  
+**Submitted:** 2026-08-19T18:55:03.440Z  
 
 ```py
-# Fix one of the variable names to make the code work
+# Replace __ in print statement to print (number - 1)
 
-st_name = "Code"
-last_name = "Chef"
-print(st_name, last_name)
-
+number = 20
+print(number - 1)
 ```
 
 ---
