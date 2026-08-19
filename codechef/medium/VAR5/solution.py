@@ -1,5 +1,4 @@
-# Fix one of the variable names to make the code work
+# Replace __ in print statement to print (number - 1)
 
-st_name = "Code"
-last_name = "Chef"
-print(st_name, last_name)
+number = 20
+print(number - 1)
