@@ -1,5 +1,5 @@
-# Update your code below this line
-pi=3.14
-radius=8.9
-area=(pi*radius*radius)
+# Update the code below this line to solve the problem
+length = 45
+width = 76
+area=(length*width)
 print(area)
