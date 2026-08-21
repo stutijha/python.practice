@@ -20,13 +20,15 @@ Write a program which does the following
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T15:54:11.492Z  
+**Submitted:** 2026-08-21T15:54:42.570Z  
 
 ```py
 # Update your code below this line
 s=14
 area=s*s
 cost=area*7
+print(area)
+print(cost)
 ```
 
 ---
