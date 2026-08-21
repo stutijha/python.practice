@@ -1,6 +1,6 @@
-# Update your code below this line
-s=14
-area=s*s
-cost=area*7
-print(area)
-print(cost)
+# cook your dish here
+a = -50
+b = 40
+total = a+b
+product = a*b
+print(total,product)
