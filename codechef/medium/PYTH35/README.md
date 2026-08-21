@@ -11,7 +11,8 @@ What will be the output of this code?
 ```
 a = -10
 b = -3
-print a * b
+c = a * b
+print(c)
 
 ```
 
@@ -20,7 +21,7 @@ print a * b
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T20:23:41.753Z  
+**Submitted:** 2026-08-21T20:23:33.975Z  
 
 ```cpp
 # cook your dish here
