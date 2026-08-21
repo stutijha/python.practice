@@ -4,49 +4,42 @@
 
 ## Problem
 
-### Float datatype
+### String Datatype
 
 Listen
 
-In Python, you don't need to explicitly specify the type of a variable during declaration. The type is inferred based on the kind of value assigned to the variable.
+The  *string*  type is used to store a sequence of characters, i.e. text.
+String values can be surrounded by either double quotes or single quotes.
+Python does not care about whether you use single or double quotes.
 
-For example if you put decimal values in a variable, the type of variable becomes float.
+For example, both the below codes do the same thing:
 
 ```
-pi = 3.14
+sentence1 = "I am using CodeChef"
+sentence2 = 'I am using CodeChef'
 
 ```
 
 ### Task
 
-Write a program which does the following:
+Write a program which does the following
 
-- Find the area of a circle whose radius is 8.9. Take pi = 3.14
-- Declare variables radius, pi and area and assign the relevant values to them
-- Output the area, you don't need to output any other text.
-
-Note: Formula for the area of a circle is $pi \times radius \times radius$
-
- **Expected output:** 
-
-```
-248.71940000000004
-
-```
+- Declare two variables a and b
+- Assign Learning to a and is fun! to b
+- Using the concepts we learned previously, display the sentence "Learning is fun!" using variables a and b in a single line
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T18:58:35.620Z  
+**Submitted:** 2026-08-21T03:13:24.344Z  
 
 ```py
 # Update your code below this line
-pi=3.14
-radius=8.9
-area=(pi*radius*radius)
-print(area)
+a = "Learning"
+b = "is fun"
+print(a,b)
 ```
 
 ---
